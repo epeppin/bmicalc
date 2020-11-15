@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: slategrey;
+}
+
+h1, label, button, p, small {
+    margin-left: 40%;
+}
+label.error {
+    color: crimson;
+    font-size: smaller;
+}
+#outputBmi, #outputCat {
+    display: none;
+}
